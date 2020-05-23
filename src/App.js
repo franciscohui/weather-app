@@ -1,13 +1,11 @@
-import React, { useState } from "react";
-import List from "./Weather";
-import Weather from "./ImplementationApproaches";
+import React from "react";
+import HourlyWeather from "./Weather";
 import "./styles.css";
 
 export default function App() {
   return (
     <div>
-      <List />
-      <Weather />
+      <HourlyWeather />
     </div>
   );
 }
